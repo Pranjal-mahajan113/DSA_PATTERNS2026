@@ -6,6 +6,10 @@ function tripletsum(nums) {
   for(let i=0;i<n-2;i++){
     let left=i+1;
     let right=n-1;
+    while(left<right){
+      
+    }
+    
     
   }
 }
