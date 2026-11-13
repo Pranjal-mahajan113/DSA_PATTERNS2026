@@ -1,4 +1,6 @@
- let i = s.length - 1;
+
+var backspaceCompare = function(s, t) {
+    let i = s.length - 1;
     let j = t.length - 1;
 
     while (i >= 0 || j >= 0) {
@@ -49,3 +51,4 @@
     }
 
     return true;
+};
